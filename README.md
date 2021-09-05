@@ -14,7 +14,7 @@
 
 |          	|   	                                                      |
 |--:	    |---	                                                      |
-|class 1   	|[any]  	|
+|class 1   	|[any]https://github.com/dinaabuzeena/Reading-301/blob/main/%20Class%2001  	|
 |class 2    |[any]  |
 |class 3    |[any] 	|
 |class 4    |[any]   |
