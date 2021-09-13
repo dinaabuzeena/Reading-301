@@ -1,0 +1,43 @@
+# API Design Best Practices
+
+1- What does REST stand for?
+A primary advantage of REST over HTTP is that it uses open standards, and does not bind the implementation of the API or the client applications to any specific implementation. For example, a REST web service could be written in ASP.NET, and client applications can use any language or toolset that can generate HTTP requests and parse HTTP responses.
+
+
+2- REST APIs are designed around a ____.
+Organize the API design around resources
+
+
+3- What is an identifer of a resource? Give an example.
+
+Focus on the business entities that the web API exposes. For example, in an e-commerce system, the primary entities might be customers and orders. Creating an order can be achieved by sending an HTTP POST request that contains the order information. The HTTP response indicates whether the order was placed successfully or not. When possible, resource URIs should be based on nouns (the resource) and not verbs (the operations on the resource).
+
+4- What are the most common HTTP verbs?
+POST, GET, PUT, PATCH, and DELETE
+
+
+5- What should the URIs be based on?
+HTTP GET request 
+
+
+6- Give an example of a good URI.
+/orders/99/customer.
+
+
+7- What does it mean to have a ‘chatty’ web API? Is this a good or a bad thing?
+
+
+8- What status code does a successful GET request return?
+200
+
+
+9- What status code does an unsuccessful GET request return?
+4xx
+
+
+10- What status code does a successful POST request return?
+2xx
+
+
+11- What status code does a successful DELETE request return?
+HTTP 200 or HTTP 204
